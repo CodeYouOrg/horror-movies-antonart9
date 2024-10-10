@@ -94,8 +94,12 @@ def main() -> None:
         
     conn.close()
 
+    print(movies.head())
+
     return None
 
 
 if __name__ == "__main__":
     main()
+
+
